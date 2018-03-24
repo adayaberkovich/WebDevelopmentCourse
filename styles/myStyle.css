@@ -1,0 +1,80 @@
+body {
+    direction: rtl;
+    text-align: right;
+    background-color: darkgray;
+}
+
+#container{
+    font-family:Alef;
+    font-size:16px;
+    padding:50px;
+    margin: 0 auto;
+    width:960px;
+}
+#nav1 ul li {
+    display: inline-block;
+    float: right;
+}
+
+    #nav1 ul li a {
+        display: block;
+        background-color:lightpink;
+        color: black;
+        width: 120px;
+        height: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+        #nav1 ul li a:hover {
+            background-color: deeppink;
+        }
+
+        #nav1 ul li a:active {
+            background-color: deeppink;
+        }
+
+    #nav1 ul li ul {
+        display: none;
+        position: absolute;
+    }
+
+    #nav1 ul li:hover > ul {
+        display: block;
+        width: 120px;
+    }
+.Korot {
+    font-family:Alef;
+    font-size: 20px;
+    color:lightpink;
+
+}
+.mypicture {
+border:10px;
+border-color:orchid;
+
+}
+#facebookimg {
+    width: 30px;
+    height: 30px;
+    margin-right:auto;
+    display: inline-block;
+    background-size: contain;
+    background-image: url(http://www.interload.co.il/upload/8954092.png);
+    -webkit-transition: width 2s ease-in-out;
+    -moz-transition: width 2s ease-in-out;
+    -ms-transition: width 2s ease-in-out;
+    -o-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
+    
+}
+#facebookimg:hover {
+    width:50px;
+    height:50px;
+    position: absolute;
+    background-repeat:no-repeat;
+}
+    .contactdetails h4 {
+    color: deeppink;
+}
